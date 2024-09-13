@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="Pictogrammers-Material-Code-not-equal-variant.512.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="estilos/first.css">
+  <title>Exercício do Módulo 07</title>
+</head>
+<body>
+  <header>
+    <h1>GuilhermeHenrique</h1>
+  </header>
+  <img id="profile" src="profile.png" alt="Perfil">
+  <div id="espaco"></div>
+  <span id="burguer" class="material-icons" onclick="burguer()">menu</span>
+  <menu id="items">
+    <a href="#">Opção 1</a>
+    <a href="#">Opção 2</a>
+    <a href="#">Opção 3</a>
+    <a href="#">Opção 4</a>
+  </menu>
+  <main>
+    <iframe srcdoc="<h1 style='color: white; font: normal normal 1.1em Helvetica; text-align: center; padding-top: 30px;'>Selecione uma das capacitações abaixo para saber mais</h1>" name="tela" id="itela" frameborder="0"></iframe>
+    <section id="capacitacoes">
+      <h2>Capacitações:</h2>
+      <ul>
+        <a href="html5.html" target="tela"><img id="imagem-html5" src="images/html5.png" alt="HTML5" onmouseenter="entrou1()" onmouseout="saiu1()" onmousemove="moveu1()"></a>
+        <a href="html5.html" target="tela"><img id="imagem-html5sombra" src="images/html5-sombra.png" alt="HTML5ComSombra"></a>
+        <a href="css3.html" target="tela"><img id="imagem-css3" src="images/css3.png" alt="CSS3" onmouseenter="entrou2()" onmouseout="saiu2()" onmousemove="moveu2()"></a>
+        <a href="css3.html" target="tela"><img id="imagem-css3sombra" src="images/css3-sombra.png" alt="CSS3ComSombra"></a>
+        <a href="javascript.html" target="tela"><img id="imagem-javascript" src="images/js.png" alt="JAVASCRIPT" onmouseenter="entrou3()" onmouseout="saiu3()" onmousemove="moveu3()"></a>
+        <a href="javascript.html" target="tela"><img id="imagem-javascriptsombra" src="images/js-sombra.png" alt="JavaScriptComSombra"></a>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; GuilhermeHenrique</p>
+  </footer>
+
+  <script src="programacao.js"></script>
+</body>
+</html>
